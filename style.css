@@ -1,0 +1,74 @@
+.hello {
+    padding-top: 50px;
+    font-size: 30px;
+}
+  
+  body {
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.textArea {
+    border: 1px solid #EB6AA3;
+    font-size: 30px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FBE1EC;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.symbol {
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #FDF0F5;
+    min-width: 40px;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.animation {
+    transform: scale(.8)
+}
+
+.Tab {
+    width: 50px;
+    background-color: #EB6AA3;
+}
+
+.Enter, .ShiftRight {
+    width: 93px;
+    background-color: #EB6AA3;
+}
+
+.ShiftLeft, .CapsLock {
+    width: 99px;
+    background-color: #EB6AA3;
+}
+
+.Space {
+    width: 450px;
+    background-color: #EB6AA3;
+}
+
+.Backspace, .Tab, .Delete, .ArrowUp, .ControlLeft, .MetaLeft, .AltLeft, .AltRight, .ArrowLeft, .ArrowDown, .ArrowRight, .ControlRight  {
+    background-color: #EB6AA3;
+}
