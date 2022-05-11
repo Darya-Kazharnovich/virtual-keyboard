@@ -69,6 +69,9 @@
     background-color: #EB6AA3;
 }
 
-.Backspace, .Tab, .Delete, .ArrowUp, .ControlLeft, .MetaLeft, .AltLeft, .AltRight, .ArrowLeft, .ArrowDown, .ArrowRight, .ControlRight  {
+.Backspace, .Tab, .ArrowUp, .ControlLeft, .MetaLeft, .AltLeft, .AltRight, .ArrowLeft, .ArrowDown, .ArrowRight, .ControlRight  {
     background-color: #EB6AA3;
+}
+.animation1 {
+    background-color: #FDF0F5;
 }
